@@ -1,0 +1,48 @@
+{
+  "name": "antd-components",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.8.6",
+    "axios": "^0.21.0",
+    "env-cmd": "^10.1.0",
+    "moment": "^2.29.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-gladepay-2": "^1.0.2",
+    "react-number-format": "^4.4.1",
+    "react-query": "^2.26.3",
+    "react-query-devtools": "^2.6.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-table": "^6.10.3",
+    "sweetalert2": "^11.0.18"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env react-scripts start",
+    "start:dev": "env-cmd -f .env.develop react-scripts  start",
+    "build": "env-cmd -f .env react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "http://64.227.12.118:8080"
+}
