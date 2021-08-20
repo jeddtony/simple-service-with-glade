@@ -14,11 +14,10 @@ const Register = lazy(() => import("./pages/auth/Register"));
 const Dashboard = lazy(() => import("./pages/dashboard/Dashboard"));
 
 // ========= VEHICLE =================
-const CreateVehicle = lazy(() => import("./pages/vehicle/CreateVehicle"));
-const ViewPaymentRequests = lazy(() =>  import("./pages/vehicle/ViewPaymentRequests"));
-const MakePayment = lazy(() => import("./pages/vehicle/MakePayment"));
-const ViewPayments = lazy(() => import("./pages/vehicle/ViewPayments"));
-const ViewPaymentHistory = lazy(() => import("./pages/vehicle/ViewOnePaymentHistory"));
+const ViewPaymentRequests = lazy(() =>  import("./pages/payments/ViewPaymentRequests"));
+const MakePayment = lazy(() => import("./pages/payments/MakePayment"));
+const ViewPayments = lazy(() => import("./pages/payments/ViewPayments"));
+const ViewPaymentHistory = lazy(() => import("./pages/payments/ViewOnePaymentHistory"));
 
 
 function App() {
